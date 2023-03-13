@@ -13,19 +13,27 @@
   b. Generate a 256 bit symmetric key using Elliptic key Diffie Helman using 𝐾𝐶+ and 𝐾𝐵−. This is 𝐾3. Generate a symmetric key using 𝐾𝐵+ and 𝐾𝐶− and show that the generated key is the same. Print value of the generated keys and provide a screenshot.
   
 ## 3) Generation and Verification of Digital Signature
+
   Consider any text of at least 1000 characters. Apply SHA256 Hash algorithm (Obtain the message digest, 𝐻(𝑚)). Then encrypt it with 𝐾𝐴−. (Thus generate a digital signature.) Then verify the digital signature. (Decrypt it with 𝐾𝐴+ , apply Hash algorithm to the message, compare). Print 𝑚, 𝐻(𝑚) and digital signature on the screen. Provide a screenshot. (Or you may print in a file and provide the file). 
   
 ## 4) AES Encryption
 
   Generate or find a text or image file of size at least 1MB. Now consider the following three algorithms: 
+  
   i) AES (128 bit key) in CBC mode. 
+  
   ii) AES (256 bit key) in CBC mode. 
+  
   iii) AES (256 bit key) in CTR mode. 
     
-  For each of the above algorithms, do the following: 
+  ### For each of the above algorithms, do the following: 
+  
   a) Encrypt the file. Store the results (and submit it with the homework) (Note: Initialization Vector (IV) in CBC mode and nonce in CTR mode should be generated randomly, For 128 bit ıse 𝐾1 as the symmetric key. For 256 bit you may use either 𝐾2 or 𝐾3). 
+  
   b) Decrypt the ciphertexts and store the results. Show that they are the same as the original files. 
+  
   c) Measure the time elapsed for encryption. Write it in your report. Comment on the result. 
+  
   d) For the first algorithm, change Initialization Vector (IV) and show that the corresponding ciphertext changes for the same plaintext (Give the result for both). 
   
 ## 5) Message Authentication Codes

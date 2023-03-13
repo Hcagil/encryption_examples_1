@@ -38,4 +38,5 @@
   
 ## 5) Message Authentication Codes
   a) Generate a message authentication code (HMAC-SHA256) using any of the symmetric keys.
+  
   b) Apply HMAC-SHA256 to 𝐾2 in order to generate a new 256 bit key.
